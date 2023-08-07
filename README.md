@@ -1,2 +1,0 @@
-# medias-queries
-testando MQ
