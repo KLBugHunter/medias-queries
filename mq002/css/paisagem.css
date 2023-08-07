@@ -1,7 +1,9 @@
 @charset "UTF-8";
 
 /*Deitado (landscape)*/ 
+
 body{
     background: url('../imgs/cev-landscape.jpg');
     background-position: left bottom;
+    background-repeat: no-repeat;
 }
