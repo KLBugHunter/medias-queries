@@ -1,7 +1,55 @@
 @charset "utf-8";
 
-/* 
-    paleta de cores
-    verde: #49a09d
-    lilás: #5f2c82
-*/
+:root{
+    --varlilas: #5f2c82;
+    --varverde: #49a09d;
+    --varbran: #fff;
+    --varpret: black;
+    --varprets: rgba(0, 0, 0, 0.404);
+}
+
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    background-color: var(--varlilas);
+    width: 100vw;
+    height: 100vh;
+}
+
+main{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+section#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+
+    transform: translate(-50%, -50%);
+    background-color: var(--varbran);
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px var(--varprets);
+}
+
+section#login > div#imagem{
+    display: block;
+    background: var(--varlilas) url('../img/pexels-peter-holmboe-17095988.jpg');
+    background-size: cover;
+    background-position: center calc(240px);
+    height: 200px;
+}
+
+section#login > div#formulario{
+    display: block;
+    padding: 10px;
+}
