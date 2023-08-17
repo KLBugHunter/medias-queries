@@ -1,0 +1,53 @@
+:root{
+    --varlilas: #5f2c82;
+    --varverde: #49a09d;
+    --varbran: #fff;
+    --varpret: black;
+    --varprets: rgba(0, 0, 0, 0.404);
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px){
+
+    body{
+        background-image: linear-gradient(to top, var(--varverde
+        ), var(--varlilas));
+    }
+    
+    section#login{
+        width: 80vw;
+    }
+
+    section#login > div#imagem{
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    section#login > div#formulario{
+        float: right;
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 992px){
+
+    body{
+        background-image: linear-gradient(to top, var(--varverde
+        ), var(--varlilas));
+    }
+
+    section#login{
+        width: 950px;
+    }
+
+    section#login > div#imagem{
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    section#login > div#formulario{
+        float: right;
+        width: 50%;
+    }
+}

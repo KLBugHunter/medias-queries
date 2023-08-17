@@ -39,13 +39,15 @@ section#login{
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px var(--varprets);
+
+    transition: width .2s, height .2s;
 }
 
 section#login > div#imagem{
     display: block;
-    background: var(--varlilas) url('../img/pexels-peter-holmboe-17095988.jpg');
+    background: var(--varlilas) url('../img/pexels-peter-holmboe-17095988.jpg') no-repeat;
     background-size: cover;
-    background-position: center calc(240px);
+    background-position: center center;
     height: 200px;
 }
 
